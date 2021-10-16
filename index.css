@@ -1,0 +1,27 @@
+body {
+    background-image: url("./Media/smaug.jpg") ;
+}
+
+h1, h2 {
+    color: goldenrod;
+    font-size: 55px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold; 
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+
+}
+
+#increment-btn {
+    background-color: yellowgreen;
+}
+
+#save-btn {
+    background-color: rgb(16, 212, 202);
+}
