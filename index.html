@@ -1,23 +1,16 @@
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Beans counted:</h1>
+        <h2 id="count-el">0</h2>
 
-/*
-Intialize the count as 0 
-listen for clicks on the increment btn
-increment the value when btn is clicked
-change the count-el in html to reflect new value
-*/
-
-let saveEl = document.getElementById('save-el')
-let countEl = document.getElementById("count-el")
-let count = 0
-
-function increment() {
-    count += 1
-    countEl.textContent = count
-}
-
-function save() {
-    let savedEntry = count + ' - '
-    saveEl.textContent += savedEntry
-    console.log(count)
-}
-
+        <button id="increment-btn" onclick="increment()">INCREMENT </button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <p id="save-el">Saved entries: </p>
+        <script src="index.js">    
+        </script>
+    </body>
+</html>
