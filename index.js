@@ -1,4 +1,3 @@
-
 /*
 Intialize the count as 0 
 listen for clicks on the increment btn
@@ -20,4 +19,3 @@ function save() {
     saveEl.textContent += savedEntry
     console.log(count)
 }
-
